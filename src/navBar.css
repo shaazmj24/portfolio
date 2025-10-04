@@ -1,0 +1,38 @@
+.nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; 
+    padding: 1rem 2rem;
+}
+
+.nav .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;  /* horizontal layout */
+  gap: 14rem;      /* spacing between links */
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none; /* remove underline */
+  color: white;          /* link color */
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #00bcd4; /* highlight color on hover */
+
+}
+
+.nav a.active {
+  border-bottom: 2px solid purple;
+  padding-bottom: 2px;
+}

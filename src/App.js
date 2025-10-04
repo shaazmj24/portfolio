@@ -3,9 +3,9 @@ import Project from './components/projects';
 import Nav from './navBar'; 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
+function App() { 
     return (
-    <Router> 
+    <Router>    
       <div>
         <Nav/>
         <Routes>
