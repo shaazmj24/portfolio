@@ -10,11 +10,11 @@ function Nav() {
             <li><NavLink to="/projects">Projects</NavLink></li> 
             <li><NavLink to="/experience">Experience</NavLink></li> 
             <li><NavLink to="/contact">Contact Me</NavLink></li> 
-            <li><NavLink to="/resume">Resume</NavLink></li>
+            <li><a id="r" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">MyResume</a></li>
         </ul>
     </nav>
   );
 }
 
 export default Nav;
-
+//_blank means open new tab instead of replacing page
