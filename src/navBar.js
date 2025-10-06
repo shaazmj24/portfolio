@@ -10,7 +10,7 @@ function Nav() {
             <li><NavLink to="/projects">Projects</NavLink></li> 
             <li><NavLink to="/experience">Experience</NavLink></li> 
             <li><NavLink to="/contact">Contact Me</NavLink></li> 
-            <li><a id="r" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">MyResume</a></li>
+            <li><a id="r" href="/Myresume.pdf" target="_blank" rel="noopener noreferrer">MyResume</a></li>
         </ul>
     </nav>
   );
@@ -18,3 +18,5 @@ function Nav() {
 
 export default Nav;
 //_blank means open new tab instead of replacing page
+//Resume.pd root path instead of public/...
+//<a> is like when u resume and add video link <vido link> --> {https:youtube...}
