@@ -13,7 +13,7 @@ function Aboutme() {
   return (
     <div className="About">  
         <h1>About me</h1> 
-        <img src={profile}/>  
+        <img class="img" src={profile}/>  
         <p>{aboutMe}</p>
     </div>
   );

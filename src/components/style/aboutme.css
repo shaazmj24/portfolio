@@ -30,3 +30,9 @@ img {
     border-radius: 200px;
 }
 
+
+
+img:hover {
+  box-shadow: 0 0 40px rgba(128, 128, 128, 0.666);
+  transform: scale(1.05); /*expands when u hover when > 1 and contarct when < 1 */
+}
