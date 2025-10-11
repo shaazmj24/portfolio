@@ -1,5 +1,6 @@
 import './style/projects.css'; 
 import demo from "../pollstream.mp4"
+import demo1 from "../passstore.mp4"
 
 function Project() { 
     const stream = ` 
@@ -22,7 +23,7 @@ function Project() {
         <div class="card1">  
               <h1 class="store">PassStore</h1>
               <video class="demo1" controls playsInline poster="" preload="metadata">   
-                <source type="video/mp4"/>
+                <source src={demo1} type="video/mp4"/>
               </video>
         </div>
     </div>
